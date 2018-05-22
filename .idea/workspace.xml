@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00466c47-d3a8-4632-b681-012439206503" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/review/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/review/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/PlaneModelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/PlaneModelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ReviewController.php" afterDir="false" />
-    </list>
+    <list default="true" id="00466c47-d3a8-4632-b681-012439206503" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +152,7 @@
             <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ReviewType.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
                   <folding>
                     <element signature="e#34#68#0#PHP" expanded="true" />
                   </folding>
@@ -453,7 +447,7 @@
       <workItem from="1526377089166" duration="36000" />
       <workItem from="1526377693534" duration="417000" />
       <workItem from="1526541598040" duration="7029000" />
-      <workItem from="1526628895455" duration="5912000" />
+      <workItem from="1526628895455" duration="6209000" />
     </task>
     <task id="LOCAL-00001" summary="added quete entité">
       <created>1524655155032</created>
@@ -483,15 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526298943473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="form done">
+      <created>1526637702054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526637702054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44593000" />
+    <option name="totallyTimeSpent" value="44890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1398079" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -526,7 +526,8 @@
     <MESSAGE value="rel problems really sorted" />
     <MESSAGE value="rooting done" />
     <MESSAGE value="rooting done again" />
-    <option name="LAST_COMMIT_MESSAGE" value="rooting done again" />
+    <MESSAGE value="form done" />
+    <option name="LAST_COMMIT_MESSAGE" value="form done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Resources/views/review/index.html.twig">
@@ -913,7 +914,7 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ReviewType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding>
             <element signature="e#34#68#0#PHP" expanded="true" />
           </folding>
