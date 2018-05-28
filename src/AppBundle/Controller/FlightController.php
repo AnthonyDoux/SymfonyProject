@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Flight;
+use AppBundle\Service\FlightInfo;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -64,12 +65,22 @@ class FlightController extends Controller
      * @Route("/{id}", name="flight_show")
      * @Method("GET")
      */
-    public function showAction(Flight $flight)
+    public function showAction(Flight $flight, FlightInfo $flightInfo)
     {
+        $speed = $flight->getPlane()->getCruiseSpeed();
+        $distance = $flightInfo->getDistance(
+           $flight->getDeparture()->getLatitude(),
+           $flight->getDeparture()->getLongitude(),
+           $flight->getArrival()->getLatitude(),
+           $flight->getDeparture()->getLongitude()
+        );
         $deleteForm = $this->createDeleteForm($flight);
+        $duration = $flightInfo->getTime($distance, $speed);
 
         return $this->render('flight/show.html.twig', array(
             'flight' => $flight,
+            'distance' => $distance,
+            'duration' => $duration,
             'delete_form' => $deleteForm->createView(),
         ));
     }

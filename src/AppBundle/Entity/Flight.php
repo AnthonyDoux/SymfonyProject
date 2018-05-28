@@ -201,6 +201,7 @@ class Flight
     /**
      * Get publicationDate
      *
+     *
      * @return \DateTime
      */
     public function getPublicationDate()
